@@ -41,7 +41,7 @@
 
           <a
             class="text-green underline text-lg"
-            href="https://niceloop.notion.site/niceloop/com-a6f2483e68424ea3ba122358778e7fdb"
+            href="https://queue-prompt.notion.site/queue-prompt/Project-2ea6238895b24f2eb90c96cd1c579f3c"
             >อ่านต่อที่มาทั้งหมด</a
           >
         </h2>
