@@ -41,29 +41,6 @@
         tracking-wider
       "
     >
-      คาดว่าจะสามารถ upload source code ได้ไม่เกินสิ้นเดือนสิงหาคม 2564 นี้
-    </h2>
-    <h2
-      class="
-        text-left
-        lg:text-center lg:text-lg
-        text-color-gray-light
-        mt-5
-        tracking-wider
-      "
-    >
-      ( ต้องขอ refactor code, ทำความสะอาด และเรียบเรียงให้ง่ายต่อการอ่าน code
-      ก่อนสักระยะนึง )
-    </h2>
-    <h2
-      class="
-        text-left
-        lg:text-center lg:text-lg
-        text-color-gray-light
-        mt-5
-        tracking-wider
-      "
-    >
       สามารถติดตามที่
       <a
         class="
