@@ -87,7 +87,7 @@
       "
     >
       <div
-        class="flex items-center content-center lg:flex-col h-24"
+        class="flex items-center content-center lg:flex-col h-24 sm:h-full"
         v-for="t in team"
         :key="t.name"
       >
@@ -112,11 +112,18 @@
         </div>
       </div>
     </div>
+    
+    <div class="text-center mt-12 sm:mt-24">
+      <a class="text-green underline text-lg cursor-pointer" @click="goToConfederatePage">รายชื่อผู้เกี่ยวข้องทั้งหมด</a>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
+  props: {
+    goToConfederatePage: { type: Function, required: true }
+  },
   data() {
     return {
       team: [

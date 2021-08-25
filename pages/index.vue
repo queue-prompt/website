@@ -38,7 +38,7 @@
     <!-- FAQ -->
     <Faq />
 
-    <OpenSource />
+    <OpenSource :goToConfederatePage="goToConfederatePage"/>
 
     <!-- FOOTERs -->
     <Footer />
@@ -90,6 +90,9 @@ export default {
     goToDemo() {
       window.open('https://คิวพร้อม.com?e=0001')
     },
+    goToConfederatePage() {
+      this.$router.push('/confederate')
+    }
   },
 }
 </script>
