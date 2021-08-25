@@ -32,7 +32,7 @@
               tracking-wider
               "
               >
-              {{ t.name }}
+              {{t.prefix}} {{ t.name }}
             </h2>
             <p class="text-center">
               <span >{{ t.role }}</span>
@@ -62,7 +62,7 @@
               mt-10
               tracking-wider
             ">
-            สันติ วงษ์สวัสดิ์
+            นาย สันติ วงษ์สวัสดิ์
           </h2>
         </div>
 
@@ -87,7 +87,7 @@
               mt-10
               tracking-wider
             ">
-            วรินทร์ เพียจันทร์ 
+            นางสาว วรินทร์ เพียจันทร์ 
           </h2>
         </div>
 
@@ -103,21 +103,25 @@
       return {
         team: [
           {
+            prefix: 'นาย',
             name: 'วริทธิ์ ตันติวีรสุต',
             imgUrl: 'https://avatars.githubusercontent.com/u/5900388?v=4',
             role: 'Backend : Serverless',
           },
           {
+            prefix: 'นาย',
             name: 'ภาณุวัฒน์ เชี่ยวชาญศิลป์',
             imgUrl: 'https://avatars.githubusercontent.com/u/55682665?v=4',
             role: 'Frontend : Vuejs',
           },
           {
+            prefix: 'นาย',
             name: 'ธัญกร พันธมิตร',
             imgUrl: 'https://avatars.githubusercontent.com/u/53806329?v=4',
             role: 'Frontend  : Vuejs',
           },
           {
+            prefix: 'นางสาว',
             name: 'อุทุมพร หน่ายคอน',
             imgUrl: 'https://avatars.githubusercontent.com/u/55710736?v=4',
             role: 'Frontend : LIFF',
