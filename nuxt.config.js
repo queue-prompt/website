@@ -3,7 +3,7 @@ export default {
   target: 'static',
   googleAnalytics: {
     id: process.env.GOOGLE_ANALYTIC_ID,
-    debug: true
+    debug: false
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
