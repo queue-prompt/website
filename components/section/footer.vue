@@ -7,9 +7,9 @@
         >
           ช่องทางการติดต่อ
         </h1>
-        <p class="text-white text-center text-lg w-full mb-4">
+        <a id="callHyperLink" class="text-white text-center text-lg w-full mb-4" href="tel:0981781918">
           คุณจอย 098-178-1918
-        </p>
+        </a>
       </div>
 
       <!-- <div class="lg:w-1/2 justify-between lg:flex">
@@ -109,7 +109,10 @@
 </template>
 
 <script>
-export default {}
+export default {  
+    methods: {
+    }
+}
 </script>
 
 <style scoped>

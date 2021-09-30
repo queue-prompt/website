@@ -2,7 +2,8 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   googleAnalytics: {
-    id: 'UA-204288028-3',
+    id: process.env.GOOGLE_ANALYTIC_ID,
+    debug: true
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -36,6 +37,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '~/plugins/gtm'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -45,12 +47,18 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/google-analytics',
+    '@nuxtjs/dotenv'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/gtm',
   ],
+  gtm: {
+    enabled: true, /* see below */
+    id: process.env.GOOGLE_TAG_MANAGER_ID
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
