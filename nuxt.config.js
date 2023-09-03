@@ -5,7 +5,6 @@ export default {
     id: process.env.GOOGLE_ANALYTIC_ID,
     debug: false
   },
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'www.คิวพร้อม.com',
